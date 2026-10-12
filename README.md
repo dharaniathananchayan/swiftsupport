@@ -1,8 +1,14 @@
 # SwiftSupport
 
+<p align="center">
+  <img src="docs/banner.png" alt="SwiftSupport Banner" width="100%" />
+</p>
+
 > **Intelligent Customer Support & Automated Incident Resolution Platform**
 
-SwiftSupport is a full-stack, enterprise-grade customer support platform powered by local AI classification, automated ticket routing, SLA enforcement, and real-time Prometheus & Grafana observability telemetry.
+SwiftSupport is an enterprise-grade customer support and incident resolution platform designed to eliminate manual triage overhead and streamline ticket lifecycles. Powered by intelligent AI classification, the system automatically analyzes incoming customer inquiries upon submission—categorizing departments, scoring priority, evaluating customer sentiment, and generating concise executive summaries. A built-in automated dispatch engine matches inquiries to active, specialized support agents based on department skillset and real-time workload limits, enforcing strict SLA compliance and enabling incident outage clustering for bulk resolution across dedicated role-based portals for Customers, Agents, and Administrators.
+
+Architecturally, the application is built on a high-performance full-stack ecosystem. The backend is powered by **Python** and **FastAPI**, providing asynchronous RESTful APIs, **JWT-based Role-Based Access Control (RBAC)**, and **SQLAlchemy** with **SQLite/PostgreSQL** for reliable data persistence. The frontend is developed using **React** with **Vite**, featuring modern UI components, responsive layout management, and screenshot attachment lightboxes. For telemetry and operations, the platform integrates **Prometheus** for real-time metric collection (`/metrics`) and custom **Grafana** dashboards containerized via **Docker Compose**, providing deep visibility into ticket velocities, SLA breach rates, and agent capacities.
 
 ---
 
