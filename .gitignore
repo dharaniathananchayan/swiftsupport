@@ -1,0 +1,40 @@
+# Python
+.venv/
+venv/
+backend/.venv/
+backend/venv/
+__pycache__/
+backend/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Monitoring & binaries & runtime data
+data/
+prometheus/bin/
+prometheus/data/
+grafana/bin/
+*.exe
+
+# Database
+*.db
+*.sqlite3
+
+# Environment variables
+.env
+.env.*
+backend/.env
+frontend/.env
+*.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

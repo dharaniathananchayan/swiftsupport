@@ -1,0 +1,11 @@
+apiVersion: 1
+
+providers:
+  - name: 'Customer Support AI'
+    orgId: 1
+    folder: 'Support Operations'
+    type: file
+    disableDeletion: false
+    editable: true
+    options:
+      path: /etc/grafana/dashboards
